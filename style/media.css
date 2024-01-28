@@ -31,6 +31,14 @@
 	.nav_btn {
 		display: block;
 	}
+	
+	.services_block {
+		width: 800px;
+		padding: 50px 50px;
+	}
+	.services_swiper-titles {
+		width: 321px;
+	}
 }
 
 @media (max-width: 992px) {
@@ -45,6 +53,25 @@
 	}
 	.services_card {
 		width: 90%;
+	}
+	.services_block {
+		width: 500px;
+	}
+	.services_swiper {
+		flex-wrap: wrap;
+		justify-content: start;
+	}
+	.services_swiper-titles {
+		max-width: 100%;
+		margin-top: 30px;
+	}
+	.services_swiper-titles h2 {
+		margin-bottom: 8px;
+	}
+	.services_drops {
+		display: flex;
+		flex-direction: column;
+		gap: 35px;
 	}
 }
 
